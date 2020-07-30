@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 두번째와 세번째는 서버로 전송할 파라미터 임
                  */
                 new AsyncHttpServer().execute
-                        ("http://192.168.219.117:8282/k12springapi/android/memberLogin.do",
+                        ("http://192.168.219.200:8282/k12springapi/android/memberLogin.do",
                                 "id=" + user_id.getText().toString(), "pass=" + user_pw.getText().toString());
             }
         });
